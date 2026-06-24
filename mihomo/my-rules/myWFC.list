@@ -1,6 +1,49 @@
-# 域名后缀匹配
-DOMAIN-SUFFIX,att.net
-# Vodafone DE (德国沃达丰)
+# iPhone Apple 地区检测
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+
+# 3HK / CSL Wi-Fi Calling / ePDG
+DOMAIN-SUFFIX,csl.prod.ondemandconnectivity.com
+DOMAIN-SUFFIX,device.three.com.hk
+DOMAIN-SUFFIX,epdg.epc.mnc000.mcc454.pub.3gppnetwork.org
+DOMAIN-SUFFIX,hhk.prod.ondemandconnectivity.com
+DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc000.mcc454.pub.3gppnetwork.org
+DOMAIN-SUFFIX,ss.epdg.epc.mnc000.mcc454.pub.3gppnetwork.org
+DOMAIN-SUFFIX,wlan.three.com.hk
+# 3HK / CSL IP段
+IP-CIDR,120.88.224.0/32,no-resolve
+IP-CIDR,120.88.240.0/32,no-resolve
+IP-CIDR,124.217.186.0/32,no-resolve
+IP-CIDR,203.145.92.0/32,no-resolve
+IP-CIDR,4.209.41.0/24,no-resolve
+
+# Vodafone UK / giffgaff / VOXI Wi-Fi Calling / ePDG
+DOMAIN-SUFFIX,entsrv-uk.vodafone.com
+DOMAIN-SUFFIX,epdg.epc.mnc001.mcc230.pub.3gppnetwork.org
+DOMAIN-SUFFIX,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX,epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX,giffgaff.com
+DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX,ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX,voxi.co.uk
+DOMAIN-SUFFIX,vuk-gto.prod.ondemandconnectivity.com
+# Vodafone UK / giffgaff / VOXI IP段
+IP-CIDR,148.252.160.0/19,no-resolve
+IP-CIDR,148.252.188.0/24,no-resolve
+IP-CIDR,185.153.236.0/22,no-resolve
+IP-CIDR,185.153.237.0/24,no-resolve
+IP-CIDR,46.68.0.0/17,no-resolve
+IP-CIDR,46.68.57.0/24,no-resolve
+IP-CIDR,46.68.58.0/24,no-resolve
+IP-CIDR,46.68.59.0/24,no-resolve
+IP-CIDR,62.141.11.56/24,no-resolve
+IP-CIDR,87.194.0.0/19,no-resolve
+IP-CIDR,87.194.8.0/24,no-resolve
+IP-CIDR,87.194.88.0/23,no-resolve
+IP-CIDR,87.194.88.0/24,no-resolve
+IP-CIDR,88.82.0.0/19,no-resolve
+IP-CIDR,88.82.11.0/24,no-resolve
+
+# Vodafone DE / 德国沃达丰 Wi-Fi Calling / ePDG
 DOMAIN-SUFFIX,arcor-ip.de
 DOMAIN-SUFFIX,epdg.epc.drz1.vodafone-ip.de
 DOMAIN-SUFFIX,epdg.epc.mnc002.mcc262.pub.3gppnetwork.org
@@ -15,9 +58,16 @@ DOMAIN-SUFFIX,tech26.de
 DOMAIN-SUFFIX,vodafone-dns.net
 DOMAIN-SUFFIX,vodafone-ip.de
 DOMAIN-SUFFIX,vodafone.de
-
-# Vodafone DE IP段
+# Vodafone DE / 德国沃达丰 IP段
 IP-CIDR,139.7.117.160/28,no-resolve
 IP-CIDR,139.7.96.0/19,no-resolve
 IP-CIDR,194.25.0.60/32,no-resolve
 IP-CIDR,194.25.0.68/32,no-resolve
+
+# AT&T Wi-Fi Calling / IMS / VVM
+DOMAIN-SUFFIX,epdg.epc.att.net
+DOMAIN-SUFFIX,epdg.epc.att-idns.net
+DOMAIN-SUFFIX,sentitlement2.mobile.att.net
+DOMAIN-SUFFIX,vvm.mobile.att.net
+# AT&T IP段
+IP-CIDR,107.122.31.0/32,no-resolve
