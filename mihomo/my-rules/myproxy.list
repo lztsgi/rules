@@ -1,19 +1,19 @@
-# --- Apple Intelligence / Siri 主入口（两条必须）
-DOMAIN-SUFFIX,guzzoni.apple.com
-DOMAIN-SUFFIX,smoot.apple.com
+# Apple Intelligence / Siri 主入口
++.guzzoni.apple.com
++.smoot.apple.com
 
-# --- Apple Intelligence 中继链（必须四条）
-DOMAIN-SUFFIX,apple-relay.apple.com
-DOMAIN-SUFFIX,apple-relay.fastly-edge.com
-DOMAIN-SUFFIX,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,cp4.cloudflare.com
+# Apple Intelligence 中继链
++.apple-relay.apple.com
++.apple-relay.fastly-edge.com
++.apple-relay.cloudflare.com
++.cp4.cloudflare.com
 
-# --- AI 个性化 & iCloud AI 同步（必须）
-DOMAIN-SUFFIX,gateway.icloud.com
+# AI 个性化 & iCloud AI 同步
++.gateway.icloud.com
 
-# --- AI 配置下发 / 能力接口（强相关）
-DOMAIN-SUFFIX,amp-api.apps.apple.com
-DOMAIN-SUFFIX,configuration.apple.com
-DOMAIN-SUFFIX,mesu.apple.com
-DOMAIN-SUFFIX,gdmf.apple.com
-DOMAIN-SUFFIX,xp.apple.com
+# AI 配置下发 / 能力接口
++.amp-api.apps.apple.com
++.configuration.apple.com
++.mesu.apple.com
++.gdmf.apple.com
++.xp.apple.com
