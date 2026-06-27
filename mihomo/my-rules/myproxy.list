@@ -1,19 +1,1 @@
-# Apple Intelligence / Siri 主入口
-+.guzzoni.apple.com
-+.smoot.apple.com
 
-# Apple Intelligence 中继链
-+.apple-relay.apple.com
-+.apple-relay.fastly-edge.com
-+.apple-relay.cloudflare.com
-+.cp4.cloudflare.com
-
-# AI 个性化 & iCloud AI 同步
-+.gateway.icloud.com
-
-# AI 配置下发 / 能力接口
-+.amp-api.apps.apple.com
-+.configuration.apple.com
-+.mesu.apple.com
-+.gdmf.apple.com
-+.xp.apple.com
