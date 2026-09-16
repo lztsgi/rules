@@ -159,6 +159,8 @@ jobs:
             local behavior=""
             local dest_txt=""
             local dest_mrs=""
+            local exclude_file=""
+            local filtered_file=""
 
             if [[ "$kind" == "filename" ]]; then
               filename="$(sanitize_name "$tail")"
@@ -181,6 +183,28 @@ jobs:
               echo "Error: Downloaded file is empty for $url"
               rm -f "$raw_file"
               return 0
+            fi
+
+            # 可选：按输出名称加载逐行精确排除列表。
+            # 例如 fakeip-filter 会读取 mihomo/exclude/fakeip-filter.txt。
+            exclude_file="mihomo/exclude/${filename}.txt"
+            if [[ -s "$exclude_file" ]]; then
+              filtered_file="${raw_file}.filtered"
+
+              awk '
+                NR == FNR {
+                  sub(/\r$/, "")
+                  if (length($0)) excluded[$0] = 1
+                  next
+                }
+                {
+                  sub(/\r$/, "")
+                  if (!($0 in excluded)) print
+                }
+              ' "$exclude_file" "$raw_file" > "$filtered_file"
+
+              mv "$filtered_file" "$raw_file"
+              echo "Applied exclusions from $exclude_file"
             fi
 
             behavior="$(detect_behavior "$raw_file")"
