@@ -1,0 +1,4 @@
+#T-mobile and Ultra Mobile wifi calling
++.3gppnetwork.org
+#Wifi Calling
++.pub.3gppnetwork.org
