@@ -1,0 +1,28 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "device.three.com.hk",
+        "wlan.three.com.hk",
+        "entsrv-uk.vodafone.com",
+        "epdg.epc.drz1.vodafone-ip.de",
+        "epdg.epc.att.net",
+        "epdg.epc.att-idns.net",
+        "sentitlement2.mobile.att.net",
+        "crl.t-mobile.com"
+      ],
+      "domain_suffix": [
+        "mnc000.mcc454.pub.3gppnetwork.org",
+        "mnc010.mcc454.pub.3gppnetwork.org",
+        "mnc019.mcc454.pub.3gppnetwork.org",
+        "mnc015.mcc234.pub.3gppnetwork.org",
+        "mnc033.mcc234.pub.3gppnetwork.org",
+        "mnc002.mcc262.pub.3gppnetwork.org",
+        "mnc410.mcc310.pub.3gppnetwork.org",
+        "mnc240.mcc310.pub.3gppnetwork.org",
+        "mnc260.mcc310.pub.3gppnetwork.org"
+      ]
+    }
+  ]
+}
