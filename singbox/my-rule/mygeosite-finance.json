@@ -11,6 +11,11 @@
         "eastwestbank.com.cn",
         "velobank.com"
       ]
+    },
+    {
+      "domain": [
+        "eastwestbank.sc.omtrdc.net"
+      ]
     }
   ]
 }
