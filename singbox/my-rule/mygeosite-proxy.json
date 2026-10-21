@@ -1,9 +1,27 @@
+
 {
   "version": 3,
   "rules": [
     {
       "domain_suffix": [
-        "wise.com"
+        "wise.com",
+        "interactivebrokers.com",
+        "ibkr.com",
+        "ibkr.eu",
+        "ibkr.com.hk",
+        "ibkr.com.cn",
+        "ibllc.com",
+        "ibllc.com.cn",
+        "interactivebrokers.co.uk",
+        "interactivebrokers.ca",
+        "interactivebrokers.co.in",
+        "interactivebrokers.co.jp",
+        "interactivebrokers.com.au"
+      ]
+    },
+    {
+      "domain": [
+        "eastwestbank.sc.omtrdc.net"
       ]
     }
   ]
