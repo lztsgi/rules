@@ -23,6 +23,11 @@
         "a.larrychan.cn",
         "828467.xyz"
       ]
+    },
+    {
+      "domain_regex": [
+        "^derp[0-9a-z-]*\\.tailscale\\.com$"
+      ]
     }
   ]
 }
