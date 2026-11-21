@@ -1,0 +1,10 @@
+{
+  "version": 5,
+  "rules": [
+    {
+      "domain_regex": [
+        "^derp[0-9a-z-]*\\.tailscale\\.com$"
+      ]
+    }
+  ]
+}
