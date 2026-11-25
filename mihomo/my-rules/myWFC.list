@@ -20,11 +20,8 @@ IP-CIDR,120.88.240.0/24,no-resolve
 # HK - 3HK / Hutchison
 # =========================
 
-# WFC entitlement / device provisioning
-DOMAIN,device.three.com.hk
-
-# 3HK ePDG
-DOMAIN,wlan.three.com.hk
+# 3HK Domain
+DOMAIN,three.com.hk
 
 # 3HK ePDG 当前及备用网段
 IP-CIDR,124.217.186.0/24,no-resolve
