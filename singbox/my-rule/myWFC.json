@@ -5,6 +5,7 @@
       "domain": [
         "device.three.com.hk",
         "wlan.three.com.hk",
+        "wlan.datapath.three.com.hk",
         "entsrv-uk.vodafone.com",
         "epdg.epc.drz1.vodafone-ip.de",
         "epdg.epc.att.net",
